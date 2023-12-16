@@ -9,10 +9,10 @@ This project involves coding a function that get a line read from a file descrip
 
 ## Subject
 ### Mandatory
-()
+This function aims to read file from a file descriptor (fd) and get a line, parsing the input file and handling the memory allocation.
 
 ### Bonus
-(파일디스크립터를 여러개 다룰 수 있어야함)
+In addition to the mandatory functionality, the bonus part extends the capability to handle multiple file descriptors concurrently. This means the function should be able to manage and read from various file descriptors simultaneously.
 
 ## Getting Started
 ```shell
